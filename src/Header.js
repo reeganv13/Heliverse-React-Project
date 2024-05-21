@@ -5,7 +5,7 @@ function Header() {
     <>
     <div className='header'>
         <div>
-          <a href='/'> <img src='images\MotionArtEffect-logo.png'></img></a>
+          <a href='/'> <img src={`${process.env.PUBLIC_URL}/images/MotionArtEffect-logo.png`}></img></a>
         
         </div>
         <div>

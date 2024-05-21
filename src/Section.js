@@ -9,13 +9,13 @@ const Section = () => {
          <h3>Apply On Section</h3>
          <p>Apply on section is a game-changer, offering an unparalleled way to</p>
          <p className='section-para'> manage applications directly from your website. </p>
-        <img src='images\motionarteffect-img11.png' />
+        <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img11.png`} />
         </div>
         <div className='section-box2'>
          <h3>Apply On Page</h3>
          <p>Take your website to new heights with Motion Art for Elementor.</p>
-         <p className='section-para'> Embrace the power of motion and animation. </p>
-        <img src='images\motionarteffect-img10.png' />
+         <p class Name='section-para'> Embrace the power of motion and animation. </p>
+        <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img10.png`}/>
         </div>
         </div>
 
@@ -23,7 +23,7 @@ const Section = () => {
             <h2>Supported by All Popular Browsers</h2>
             <p>Rest assured, Motion Art is designed to be compatible </p>
             <p className='section-para3'>with all major web browsers.</p>
-            <img src='images\motionarteffect-img8.png' />
+            <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img8.png`} />
         </div>
     </div>
   )

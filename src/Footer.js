@@ -9,17 +9,17 @@ function Footer() {
         <p className='footer-para2'>with a seamless and intuitive experience.</p>
        <div className='footer-boxes'>
         <div className='footer-box1'>
-         <img src='images\motionarteffect-img9.png'/>
+         <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img9.png`}/>
          <h3>Light Weight</h3>
          <p>Motion Art for Elementor is designed to be lightweight.</p>
         </div>
         <div className='footer-box1'>
-         <img src='images\motionarteffect-img6.png'/>
+         <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img6.png`}/>
          <h3>Light Weight</h3>
          <p>Motion Art for Elementor is designed to be lightweight.</p>
         </div>
         <div className='footer-box1'>
-         <img src='images\motionarteffect-img7.png'/>
+         <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img7.png`}/>
          <h3>Light Weight</h3>
          <p>Motion Art for Elementor is designed to be lightweight.</p>
         </div>

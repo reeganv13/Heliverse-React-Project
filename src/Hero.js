@@ -7,24 +7,24 @@ const Hero = () => {
         <h3 className='box-heading'>Trusted by thousands of users around the world</h3>
         <div className='box-container1'>
             <div className='boxes'>
-                <img src='images\motionarteffect-img2.png'></img>
+                <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img2.png`}></img>
                <div> 
-                <p><img decoding="async" class="alignnone size-full wp-image-1643" src="images/motionarteffect-img4.png" alt="" width="155" height="20"  sizes="(max-width: 155px) 100vw, 155px"/></p>
+                <p><img decoding="async" class="alignnone size-full wp-image-1643" src={`${process.env.PUBLIC_URL}/images/motionarteffect-img4.png`} alt="" width="155" height="20"  sizes="(max-width: 155px) 100vw, 155px"/></p>
                 <p>4.5 Score,9 Reviews</p>
                 </div>
             </div>
             <div className='boxes'>
-                <img src='images\motionarteffect-img1.png'></img>
+                <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img1.png`}></img>
                 <div>
-                <p><img decoding="async" src="images/motionarteffect-img4.png" alt="" width="155" height="20"  sizes="(max-width: 155px) 100vw, 155px"/></p>
+                <p><img decoding="async" src={`${process.env.PUBLIC_URL}/images/motionarteffect-img4.png`} alt="" width="155" height="20"  sizes="(max-width: 155px) 100vw, 155px"/></p>
                 <p>4.5 Score,9 Reviews</p>
                 </div>
             </div>
             <div className='boxes'>
                 
-                <img src='images\motionarteffect-img3.png'></img>
+                <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img3.png`}></img>
                 <div>
-                <p><img decoding="async" class="alignnone size-full wp-image-1643" src="images/motionarteffect-img4.png" alt="" width="155" height="20" sizes="(max-width: 155px) 100vw, 155px"/></p>
+                <p><img decoding="async" class="alignnone size-full wp-image-1643" src={`${process.env.PUBLIC_URL}/images/motionarteffect-img4.png`} alt="" width="155" height="20" sizes="(max-width: 155px) 100vw, 155px"/></p>
                 <p>4.5 Score,9 Reviews</p>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Hero = () => {
             <button><a className='purchasefromenvato-tag' href='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891'>Purchase From Envato</a> </button>
             </div>
             <div className='box-2'>
-                <img className='magic-stick'src='images\motionarteffect-img5.png'/>
+                <img className='magic-stick'src={`${process.env.PUBLIC_URL}/images/motionarteffect-img5.png`}/>
             </div>
            
         </div>
