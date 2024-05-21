@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reeganv13/Heliverse-React-Project.git/static/css/main.398d8f9a.css",
+    "main.js": "/reeganv13/Heliverse-React-Project.git/static/js/main.61f149b2.js",
+    "static/js/453.b21525c4.chunk.js": "/reeganv13/Heliverse-React-Project.git/static/js/453.b21525c4.chunk.js",
+    "index.html": "/reeganv13/Heliverse-React-Project.git/index.html",
+    "main.398d8f9a.css.map": "/reeganv13/Heliverse-React-Project.git/static/css/main.398d8f9a.css.map",
+    "main.61f149b2.js.map": "/reeganv13/Heliverse-React-Project.git/static/js/main.61f149b2.js.map",
+    "453.b21525c4.chunk.js.map": "/reeganv13/Heliverse-React-Project.git/static/js/453.b21525c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.398d8f9a.css",
+    "static/js/main.61f149b2.js"
+  ]
+}
