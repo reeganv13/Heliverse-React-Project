@@ -77,9 +77,7 @@ nav button:hover{
     display: flex;
     
 }
-.box1{
-    margin-left: -200px;
-}
+
 .colouringText1{
   background:linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
  background-clip: text;

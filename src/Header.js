@@ -20,7 +20,7 @@ function Header() {
     </div>
     <div className='hero'>
         <motion.div  className='box1' 
-       initial={{opacity:0,scale:0.5}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:200}}
+       initial={{opacity:0,scale:0.5,x:-200}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:0}}
         >
             <h3 className='colouringText1'>Tranform </h3>
             <h3 className='colouringText2'> Your Website</h3>
@@ -28,7 +28,7 @@ function Header() {
             <h3 className='normalText4'>Effect</h3>
         </motion.div>
         <motion.div className='box2'
-        initial={{opacity:0,scale:0.5}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:200,y:-50}}
+        initial={{opacity:0,scale:0.5,x:-200}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:0,y:-50}}
         >
             <h1 className='normalText5'>Attract Your Visitors Attention With Colorful</h1>
             <h1 className='colouringText6'>Motion Art Effect</h1>
