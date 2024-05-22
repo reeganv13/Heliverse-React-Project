@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Heliverse-React-Project/static/css/main.86b3d160.css",
-    "main.js": "/Heliverse-React-Project/static/js/main.394231fd.js",
+    "main.css": "/Heliverse-React-Project/static/css/main.e6261c3a.css",
+    "main.js": "/Heliverse-React-Project/static/js/main.d66dc88f.js",
     "static/js/453.b21525c4.chunk.js": "/Heliverse-React-Project/static/js/453.b21525c4.chunk.js",
     "index.html": "/Heliverse-React-Project/index.html",
-    "main.86b3d160.css.map": "/Heliverse-React-Project/static/css/main.86b3d160.css.map",
-    "main.394231fd.js.map": "/Heliverse-React-Project/static/js/main.394231fd.js.map",
+    "main.e6261c3a.css.map": "/Heliverse-React-Project/static/css/main.e6261c3a.css.map",
+    "main.d66dc88f.js.map": "/Heliverse-React-Project/static/js/main.d66dc88f.js.map",
     "453.b21525c4.chunk.js.map": "/Heliverse-React-Project/static/js/453.b21525c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86b3d160.css",
-    "static/js/main.394231fd.js"
+    "static/css/main.e6261c3a.css",
+    "static/js/main.d66dc88f.js"
   ]
 }
