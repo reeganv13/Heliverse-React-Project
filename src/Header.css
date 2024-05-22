@@ -300,7 +300,7 @@ nav button:hover{
 .footer-boxes{
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 60px;
     margin-bottom: 100px;
 }
 .footer-box1{
