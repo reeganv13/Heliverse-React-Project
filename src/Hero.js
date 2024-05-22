@@ -1,11 +1,14 @@
 import React from 'react'
 import './Header.css'
+import {motion} from 'framer-motion'
 
 const Hero = () => {
   return (
     <div className='container'>
         <h3 className='box-heading'>Trusted by thousands of users around the world</h3>
-        <div className='box-container1'>
+        <motion.div className='box-container1' 
+        initial={{opacity:1,scale:1,x:-400}}whileInView={{opacity:1,scale:1,x:0}}transition={{duration:2}}
+        >
             <div className='boxes'>
                 <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img2.png`}></img>
                <div> 
@@ -28,17 +31,27 @@ const Hero = () => {
                 <p>4.5 Score,9 Reviews</p>
                 </div>
             </div>
-        </div>
+        </motion.div>
         <div className='box-container2'>
-            <div className='box-1'>
+            <motion.div className='box-1'
+            initial={{opacity:0,x:-200,scale:0.5}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:0}}
+            >
             <h2>Turn Your Cursor Into A Colorful Magic & Charm Your Visitors</h2>
             <p>Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse </p> 
             <p className='para-2'> your website with visually stunning motion art elements.</p>
             <button><a className='purchasefromenvato-tag' href='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891'>Purchase From Envato</a> </button>
-            </div>
-            <div className='box-2'>
+            </motion.div>
+            
+            <motion.div className='box-2'
+            initial={{ scale: 0.5 }}
+            whileInView={{ rotate: 360, scale: 1 }}
+            transition={{
+              duration:1
+            }}
+          >
+            
                 <img className='magic-stick'src={`${process.env.PUBLIC_URL}/images/motionarteffect-img5.png`}/>
-            </div>
+            </motion.div>
            
         </div>
     </div>

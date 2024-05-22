@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { motion } from 'framer-motion'
 function Footer() {
   return (
     <div className='footer'>
@@ -7,7 +8,9 @@ function Footer() {
         <p className='footer-para1'>Whether you're a seasoned web designer or just starting out, Motion Art for</p>
         <p className='footer-para2'>Elementor seamlessly integrates with the Elementor platform, providing you </p>
         <p className='footer-para2'>with a seamless and intuitive experience.</p>
-       <div className='footer-boxes'>
+       <motion.div className='footer-boxes'
+        initial={{opacity:1,scale:1,x:-400}}whileInView={{opacity:1,scale:1,x:0}}transition={{duration:2}}
+       >
         <div className='footer-box1'>
          <img src={`${process.env.PUBLIC_URL}/images/motionarteffect-img9.png`}/>
          <h3>Light Weight</h3>
@@ -23,7 +26,7 @@ function Footer() {
          <h3>Light Weight</h3>
          <p>Motion Art for Elementor is designed to be lightweight.</p>
         </div>
-       </div>
+       </motion.div>
        <div className='footer-info'>
        <div>
         <p>© 2023 Copywrite. All rights reserved by QodeMatrix</p>
