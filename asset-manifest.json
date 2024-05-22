@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reeganv13/Heliverse-React-Project.git/static/css/main.86b3d160.css",
-    "main.js": "/reeganv13/Heliverse-React-Project.git/static/js/main.b8bb6a6d.js",
-    "static/js/453.b21525c4.chunk.js": "/reeganv13/Heliverse-React-Project.git/static/js/453.b21525c4.chunk.js",
-    "index.html": "/reeganv13/Heliverse-React-Project.git/index.html",
-    "main.86b3d160.css.map": "/reeganv13/Heliverse-React-Project.git/static/css/main.86b3d160.css.map",
-    "main.b8bb6a6d.js.map": "/reeganv13/Heliverse-React-Project.git/static/js/main.b8bb6a6d.js.map",
-    "453.b21525c4.chunk.js.map": "/reeganv13/Heliverse-React-Project.git/static/js/453.b21525c4.chunk.js.map"
+    "main.css": "/Heliverse-React-Project/static/css/main.86b3d160.css",
+    "main.js": "/Heliverse-React-Project/static/js/main.394231fd.js",
+    "static/js/453.b21525c4.chunk.js": "/Heliverse-React-Project/static/js/453.b21525c4.chunk.js",
+    "index.html": "/Heliverse-React-Project/index.html",
+    "main.86b3d160.css.map": "/Heliverse-React-Project/static/css/main.86b3d160.css.map",
+    "main.394231fd.js.map": "/Heliverse-React-Project/static/js/main.394231fd.js.map",
+    "453.b21525c4.chunk.js.map": "/Heliverse-React-Project/static/js/453.b21525c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86b3d160.css",
-    "static/js/main.b8bb6a6d.js"
+    "static/js/main.394231fd.js"
   ]
 }
