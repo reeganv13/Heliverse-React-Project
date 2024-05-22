@@ -2,7 +2,7 @@
   "name": "heliverse",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/reeganv13/Heliverse-React-Project.git",
+  "homepage": "https://reeganv13.github.io/Heliverse-React-Project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +10,7 @@
     "framer-motion": "^11.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
     "web-vitals": "^2.1.4"
